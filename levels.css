@@ -1,0 +1,21 @@
+body{
+    background-image: url("רקעים לאתר משחקים/levels.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: system-ui;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: #e02f7582;
+    font-family: system-ui;
+    font-size: 1rem;
+}
+.bb{
+    margin-top: 24%;
+    margin-bottom: 11%;
+}
+.b2{
+    margin: 1%;
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: url("רקעים לאתר משחקים/home page.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: blue;
+font-weight: bolder; 
+font-family: system-ui;
+
+  }
+  .links{
+    margin-top: 32%;
+  }
