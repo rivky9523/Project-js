@@ -41,8 +41,8 @@ let point = 0;
 const ppoints = document.querySelector(".ppoints");
 ppoints.textContent = `${point}`;
 const matchSound = new Audio("audio/click.mp3");
-const winVoice = new Audio("MUS/55555.mp3");
-const loseVoice = new Audio("MUS/gameOver.mp3");
+const winVoice = new Audio("audio/win.mp3");
+const loseVoice = new Audio("audio/gameOver.mp3");
 
 console.log(arrimg)
 // לכרטיסים event listeners הוספת 
@@ -129,7 +129,7 @@ const timer = setInterval(() => {
         finish.style.height = "500px";
         mainDiv.appendChild(finish);
         ptime.textContent = "finish...";
-        finish.style.backgroundImage = "url(simon_gif/p.gif)";
+        finish.style.backgroundImage = "url(simon_pic/p.gif)";
         win = 0;
         updatePoints();
         winVoice.play();
@@ -150,7 +150,7 @@ const timer = setInterval(() => {
                 point -= 10;
                 ppoints.textContent = `${point}`;
                 ptime.textContent = "finish...";
-                finish.style.backgroundImage = "url(simon_gif/n.gif)";
+                finish.style.backgroundImage = "url(/n.gif)";
             }
             updatePoints();
             
