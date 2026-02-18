@@ -108,7 +108,7 @@ function getImageName(imageNumber) {
     return imageNames[imageNumber];
 }
 
-let second = 60;
+let second =60;
 const ptime = document.querySelector(".ptime");
 
 const timer = setInterval(() => {
@@ -150,7 +150,7 @@ const timer = setInterval(() => {
                 point -= 10;
                 ppoints.textContent = `${point}`;
                 ptime.textContent = "finish...";
-                finish.style.backgroundImage = "url(/n.gif)";
+                finish.style.backgroundImage = "url(simon_pic/n.gif)";
             }
             updatePoints();
             
